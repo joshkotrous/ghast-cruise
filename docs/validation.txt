@@ -1,0 +1,7 @@
+Minecraft 26.3 / Fabric Loader 0.19.5 / Java 25
+Build and unit tests: PASS
+Minimal Fabric prelaunch: PASS
+Prelaunch alongside the installed client mod set: PASS
+PASS: latch cancellation, remount, 128 input combinations, steering, SDL Ctrl chord and repeat suppression
+PASS: all three client mixin targets transformed under Fabric
+Manual in-world flight test: pending; first release is a beta.

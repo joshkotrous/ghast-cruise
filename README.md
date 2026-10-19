@@ -18,7 +18,7 @@ The shortcut is fixed to Ctrl+W (either Ctrl key). The backward cancellation res
 
 Requires **Minecraft 26.3**, **Fabric Loader 0.19.5 or newer** and **Java 25**. Put `ghast-cruise-1.0.0+mc26.3.jar` in your client's `mods` folder and restart. **Fabric API is not required.** Servers do not need the mod: it sends normal vanilla movement input. Follow each multiplayer server's automation rules.
 
-Download the jar from [GitHub Releases](https://github.com/joshkotrous/ghast-cruise/releases). Remove the jar and restart to uninstall. No world/save changes or persistent cruise state.
+Download the jar from [GitHub Releases](https://github.com/joshkotrous/ghast-cruise/releases). The [CurseForge project](https://www.curseforge.com/minecraft/mc-mods/ghast-cruise) has its initial beta uploaded and awaits CurseForge processing/moderation. Remove the jar and restart to uninstall. No world/save changes or persistent cruise state.
 
 ## Build
 
@@ -34,7 +34,9 @@ The implementation targets 26.3's SDL input constants and GUI API. It does not u
 
 ## Validation
 
-Automated tests cover mount-bound cancellation and rearming, all 128 combinations of movement buttons, normalized steering, both Ctrl keys, and ignored key repeats/releases. An isolated Fabric prelaunch loaded all three transformed client targets successfully. These tests do not constitute a manual in-world flight test; the initial download is marked beta pending that verification.
+Automated tests cover mount-bound cancellation and rearming, all 128 combinations of movement buttons, normalized steering, both Ctrl keys, and ignored key repeats/releases. An isolated Fabric prelaunch loaded all three transformed client targets successfully. `runtime_test.py` reproduces the prelaunch check using the exact client launch classpath (a classpath-only file, without credentials) and a new isolated directory; run it with `--help` for required paths.
+
+These tests do not constitute a manual in-world flight test; the initial download is marked beta pending that verification.
 
 ## License and support
 
