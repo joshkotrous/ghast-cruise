@@ -1,3 +1,8 @@
+# 1.0.1 (beta)
+
+- Replace the project and embedded mod icon with polished voxel-style Ghast Cruise artwork.
+- Cosmetic update only; cruise-control behavior is unchanged.
+
 # 1.0.0 (beta)
 
 - Ctrl+W toggles forward input while driving a Happy Ghast.

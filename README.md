@@ -16,7 +16,7 @@ The shortcut is fixed to Ctrl+W (either Ctrl key). The backward cancellation res
 
 ## Install
 
-Requires **Minecraft 26.3**, **Fabric Loader 0.19.5 or newer** and **Java 25**. Put `ghast-cruise-1.0.0+mc26.3.jar` in your client's `mods` folder and restart. **Fabric API is not required.** Servers do not need the mod: it sends normal vanilla movement input. Follow each multiplayer server's automation rules.
+Requires **Minecraft 26.3**, **Fabric Loader 0.19.5 or newer** and **Java 25**. Put `ghast-cruise-1.0.1+mc26.3.jar` in your client's `mods` folder and restart. **Fabric API is not required.** Servers do not need the mod: it sends normal vanilla movement input. Follow each multiplayer server's automation rules.
 
 Download the jar from [GitHub Releases](https://github.com/joshkotrous/ghast-cruise/releases). The [CurseForge project](https://www.curseforge.com/minecraft/mc-mods/ghast-cruise) has its initial beta uploaded and awaits CurseForge processing/moderation. Remove the jar and restart to uninstall. No world/save changes or persistent cruise state.
 
@@ -28,7 +28,7 @@ The build uses Python 3, JDK 25 and your installed Minecraft/Fabric libraries. G
 python build.py --install "C:/path/to/minecraft/Install" --java-home "C:/path/to/jdk25"
 ```
 
-Output: `build/ghast-cruise-1.0.0+mc26.3.jar`.
+Output: `build/ghast-cruise-1.0.1+mc26.3.jar`.
 
 The implementation targets 26.3's SDL input constants and GUI API. It does not use older GLFW key codes. Three small client mixins observe key presses, validate the latch each frame, and add forward input after vanilla keyboard sampling. Vanilla physical key states are never overwritten.
 
@@ -40,4 +40,4 @@ These tests do not constitute a manual in-world flight test; the initial downloa
 
 ## License and support
 
-MIT. Original icon artwork included under the same license. Report bugs at [GitHub Issues](https://github.com/joshkotrous/ghast-cruise/issues), including Minecraft/loader versions and your mod list. No telemetry, networking service, or configuration file is added.
+MIT. Icon artwork included under the same license; generated using OpenAI’s built-in image tool. See [artwork notes](docs/ARTWORK.md). Report bugs at [GitHub Issues](https://github.com/joshkotrous/ghast-cruise/issues), including Minecraft/loader versions and your mod list. No telemetry, networking service, or configuration file is added.

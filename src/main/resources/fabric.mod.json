@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "ghastcruise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Ghast Cruise",
   "description": "Ctrl+W cruise control for Happy Ghasts. Toggle off, press backward, or dismount to stop.",
   "authors": [

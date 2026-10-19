@@ -1,0 +1,7 @@
+# Ghast Cruise artwork
+
+Created with OpenAI’s built-in image generation tool for this project. The same opaque square PNG is used in the README, Fabric metadata, and CurseForge project logo. The original generated pixels are preserved in the repository. The artwork is included under this repository’s MIT license.
+
+## Generation prompt
+
+Use case: logo-brand. Create one polished square app/mod icon for a Minecraft client mod called Ghast Cruise, used on CurseForge and GitHub. Original voxel-inspired illustration, not a screenshot or official game asset. A cheerful pale ivory cubic floating ghast seen in appealing three-quarter view, tiny dangling blocky tentacles swept backwards, relaxed smiling face with dark square eyes, a simple teal harness band. Dynamic flight from lower left toward upper right. Integrate a bold mint/teal forward chevron as a small clean cruise-control badge near lower right, part of the composition rather than covering the face. Deep midnight navy background with subtle dimensional lighting, two short understated speed trails. Premium crisp voxel/pixel-art aesthetic, deliberate block shapes, controlled shading, excellent silhouette and high contrast at 64px. Tight balanced composition with generous safe margins, large ghast occupying most of the square. No letters, no words, no keyboard labels, no border, no watermark, no collage. Full-bleed square opaque background.

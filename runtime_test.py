@@ -8,7 +8,8 @@ p.add_argument("--output",type=Path,required=True)
 p.add_argument("--mods",type=Path,help="Optional existing mod set to check alongside Ghast Cruise")
 a=p.parse_args();r=Path(__file__).resolve().parent
 if a.output.exists():p.error("Use a new isolated output directory")
-jar=r/"build/ghast-cruise-1.0.0+mc26.3.jar"
+version=json.loads((r/"src/main/resources/fabric.mod.json").read_text())["version"]
+jar=r/f"build/ghast-cruise-{version}+mc26.3.jar"
 if not jar.exists():p.error("Run build.py first")
 mods=a.output/"mods";mods.mkdir(parents=True)
 if a.mods:
